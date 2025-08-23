@@ -148,3 +148,4 @@ D:\workspace\NorthwindWeb\Northwind.UnitTests\obj\Debug\net9.0\refint\Northwind.
 D:\workspace\NorthwindWeb\Northwind.UnitTests\obj\Debug\net9.0\Northwind.UnitTests.pdb
 D:\workspace\NorthwindWeb\Northwind.UnitTests\obj\Debug\net9.0\Northwind.UnitTests.genruntimeconfig.cache
 D:\workspace\NorthwindWeb\Northwind.UnitTests\obj\Debug\net9.0\ref\Northwind.UnitTests.dll
+D:\workspace\NorthwindWeb\Northwind.UnitTests\obj\Debug\net9.0\Northwind.UnitTests.sourcelink.json
