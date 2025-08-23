@@ -1,0 +1,71 @@
+<Project>
+
+  <!--Last updated package versions: July 8, 2025.-->
+
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    
+    <!--Define a custom property for the common version number.-->
+    <MicrosoftPackageVersion>9.0.7</MicrosoftPackageVersion>
+    <Aspire>9.3.1</Aspire>
+    <OpenTelemetry>1.12.0</OpenTelemetry>
+  </PropertyGroup>
+  
+  <ItemGroup Label="For EF Core.">
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="$(MicrosoftPackageVersion)" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Sqlite" Version="$(MicrosoftPackageVersion)" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="$(MicrosoftPackageVersion)" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="$(MicrosoftPackageVersion)" />
+  </ItemGroup>
+  
+  <ItemGroup Label="For testing.">
+    <PackageVersion Include="coverlet.collector" Version="6.0.4" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageVersion Include="xunit" Version="2.9.3" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.1" />
+    <PackageVersion Include="Microsoft.Playwright" Version="1.53.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.Mvc.Testing" Version="$(MicrosoftPackageVersion)" />
+  </ItemGroup>
+  
+  <ItemGroup Label="For ASP.NET Core websites.">
+    <PackageVersion Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="$(MicrosoftPackageVersion)" />
+    <PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="$(MicrosoftPackageVersion)" />
+    <PackageVersion Include="Microsoft.AspNetCore.Identity.UI" Version="$(MicrosoftPackageVersion)" />
+  </ItemGroup>
+
+  <ItemGroup Label="For deployment.">
+    <PackageVersion Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.22.1" />
+  </ItemGroup>
+
+  <ItemGroup Label="For .NET Aspire.">
+    <PackageVersion Include="Aspire.Hosting.AppHost" Version="$(Aspire)" />
+    <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="9.7.0" />
+    <PackageVersion Include="Microsoft.Extensions.ServiceDiscovery" Version="$(Aspire)" />
+    <PackageVersion Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="$(OpenTelemetry)" />
+    <PackageVersion Include="OpenTelemetry.Extensions.Hosting" Version="$(OpenTelemetry)" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.AspNetCore" Version="$(OpenTelemetry)" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Http" Version="$(OpenTelemetry)" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Runtime" Version="$(OpenTelemetry)" />
+  </ItemGroup>
+
+  <ItemGroup Label="For caching.">
+    <PackageVersion Include="Microsoft.Extensions.Caching.Hybrid" Version="9.6.0" />
+  </ItemGroup>
+
+  <ItemGroup Label="For ASP.NET Core web services.">
+    <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="$(MicrosoftPackageVersion)" />
+    <PackageVersion Include="NSwag.MSBuild" Version="14.4.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="$(MicrosoftPackageVersion)" />
+    <PackageVersion Include="Microsoft.AspNetCore.OData" Version="9.3.2" />
+  </ItemGroup>
+  
+  <ItemGroup Label="For FastEndpoints web services.">
+    <PackageVersion Include="FastEndpoints" Version="6.2.0" />
+  </ItemGroup>
+  
+  <ItemGroup Label="For Umbraco CMS.">
+    <PackageVersion Include="Umbraco.Cms" Version="14.3.4" />
+    <PackageVersion Include="Microsoft.ICU.ICU4C.Runtime" Version="72.1.0.3" />
+  </ItemGroup>
+
+</Project>

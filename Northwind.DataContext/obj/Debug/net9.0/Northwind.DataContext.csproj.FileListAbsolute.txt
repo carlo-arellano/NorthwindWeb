@@ -1,0 +1,15 @@
+D:\workspace\NorthwindWeb\Northwind.DataContext\bin\Debug\net9.0\Northwind.DataContext.deps.json
+D:\workspace\NorthwindWeb\Northwind.DataContext\bin\Debug\net9.0\Northwind.DataContext.dll
+D:\workspace\NorthwindWeb\Northwind.DataContext\bin\Debug\net9.0\Northwind.DataContext.pdb
+D:\workspace\NorthwindWeb\Northwind.DataContext\bin\Debug\net9.0\Northwind.EntityModels.dll
+D:\workspace\NorthwindWeb\Northwind.DataContext\bin\Debug\net9.0\Northwind.EntityModels.pdb
+D:\workspace\NorthwindWeb\Northwind.DataContext\obj\Debug\net9.0\Northwind.DataContext.csproj.AssemblyReference.cache
+D:\workspace\NorthwindWeb\Northwind.DataContext\obj\Debug\net9.0\Northwind.DataContext.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\NorthwindWeb\Northwind.DataContext\obj\Debug\net9.0\Northwind.DataContext.AssemblyInfoInputs.cache
+D:\workspace\NorthwindWeb\Northwind.DataContext\obj\Debug\net9.0\Northwind.DataContext.AssemblyInfo.cs
+D:\workspace\NorthwindWeb\Northwind.DataContext\obj\Debug\net9.0\Northwind.DataContext.csproj.CoreCompileInputs.cache
+D:\workspace\NorthwindWeb\Northwind.DataContext\obj\Debug\net9.0\Northwin.BEC4F3BB.Up2Date
+D:\workspace\NorthwindWeb\Northwind.DataContext\obj\Debug\net9.0\Northwind.DataContext.dll
+D:\workspace\NorthwindWeb\Northwind.DataContext\obj\Debug\net9.0\refint\Northwind.DataContext.dll
+D:\workspace\NorthwindWeb\Northwind.DataContext\obj\Debug\net9.0\Northwind.DataContext.pdb
+D:\workspace\NorthwindWeb\Northwind.DataContext\obj\Debug\net9.0\ref\Northwind.DataContext.dll

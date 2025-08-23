@@ -1,0 +1,14 @@
+D:\workspace\NorthwindWeb\Northwind.EntityModels\bin\Debug\net9.0\Northwind.EntityModels.deps.json
+D:\workspace\NorthwindWeb\Northwind.EntityModels\bin\Debug\net9.0\Northwind.EntityModels.runtimeconfig.json
+D:\workspace\NorthwindWeb\Northwind.EntityModels\bin\Debug\net9.0\Northwind.EntityModels.dll
+D:\workspace\NorthwindWeb\Northwind.EntityModels\bin\Debug\net9.0\Northwind.EntityModels.pdb
+D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.EntityModels.csproj.AssemblyReference.cache
+D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.EntityModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.EntityModels.AssemblyInfoInputs.cache
+D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.EntityModels.AssemblyInfo.cs
+D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.EntityModels.csproj.CoreCompileInputs.cache
+D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.EntityModels.dll
+D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\refint\Northwind.EntityModels.dll
+D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.EntityModels.pdb
+D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.EntityModels.genruntimeconfig.cache
+D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\ref\Northwind.EntityModels.dll
