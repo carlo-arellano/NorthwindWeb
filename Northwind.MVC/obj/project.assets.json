@@ -705,6 +705,28 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Caching.Hybrid/9.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "9.0.6",
+          "Microsoft.Extensions.Caching.Memory": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6",
+          "Microsoft.Extensions.Options": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.Caching.Hybrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Caching.Hybrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.Caching.Memory/9.0.7": {
         "type": "package",
         "dependencies": {
@@ -1796,6 +1818,19 @@
         },
         "runtime": {
           "bin/placeholder/Northwind.EntityModels.dll": {}
+        }
+      },
+      "Northwind.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Northwind.DataContext": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Northwind.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Northwind.Repositories.dll": {}
         }
       }
     }
@@ -3317,6 +3352,31 @@
         "microsoft.extensions.caching.abstractions.9.0.7.nupkg.sha512",
         "microsoft.extensions.caching.abstractions.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Caching.Hybrid/9.6.0": {
+      "sha512": "GUNDDD/J3vX9zxt/6xAfFECdnF3Rcjn44Ksvh4Pd+8X2KH4YL5xUX80DhK1vRwF3c93b7E1YTbUCG3HdLF/QOA==",
+      "type": "package",
+      "path": "microsoft.extensions.caching.hybrid/9.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "buildTransitive/net462/Microsoft.Extensions.Caching.Hybrid.targets",
+        "buildTransitive/net8.0/_._",
+        "lib/net462/Microsoft.Extensions.Caching.Hybrid.dll",
+        "lib/net462/Microsoft.Extensions.Caching.Hybrid.xml",
+        "lib/net8.0/Microsoft.Extensions.Caching.Hybrid.dll",
+        "lib/net8.0/Microsoft.Extensions.Caching.Hybrid.xml",
+        "lib/net9.0/Microsoft.Extensions.Caching.Hybrid.dll",
+        "lib/net9.0/Microsoft.Extensions.Caching.Hybrid.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.Hybrid.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.Hybrid.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Caching.Hybrid.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Caching.Hybrid.xml",
+        "microsoft.extensions.caching.hybrid.9.6.0.nupkg.sha512",
+        "microsoft.extensions.caching.hybrid.nuspec"
       ]
     },
     "Microsoft.Extensions.Caching.Memory/9.0.7": {
@@ -5190,6 +5250,11 @@
       "type": "project",
       "path": "../Northwind.EntityModels/Northwind.EntityModels.csproj",
       "msbuildProject": "../Northwind.EntityModels/Northwind.EntityModels.csproj"
+    },
+    "Northwind.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../Northwind.Repositories/Northwind.Repositories.csproj",
+      "msbuildProject": "../Northwind.Repositories/Northwind.Repositories.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5199,7 +5264,9 @@
       "Microsoft.AspNetCore.Identity.UI >= 9.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.7",
-      "Northwind.DataContext >= 1.0.0"
+      "Microsoft.Extensions.Caching.Hybrid >= 9.6.0",
+      "Northwind.DataContext >= 1.0.0",
+      "Northwind.Repositories >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5236,6 +5303,9 @@
           "projectReferences": {
             "D:\\workspace\\NorthwindWeb\\Northwind.DataContext\\Northwind.DataContext.csproj": {
               "projectPath": "D:\\workspace\\NorthwindWeb\\Northwind.DataContext\\Northwind.DataContext.csproj"
+            },
+            "D:\\workspace\\NorthwindWeb\\Northwind.Repositories\\Northwind.Repositories.csproj": {
+              "projectPath": "D:\\workspace\\NorthwindWeb\\Northwind.Repositories\\Northwind.Repositories.csproj"
             }
           }
         }
@@ -5279,6 +5349,11 @@
           "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
             "version": "[9.0.7, )",
+            "versionCentrallyManaged": true
+          },
+          "Microsoft.Extensions.Caching.Hybrid": {
+            "target": "Package",
+            "version": "[9.6.0, )",
             "versionCentrallyManaged": true
           }
         },

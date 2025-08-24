@@ -304,3 +304,17 @@ D:\workspace\NorthwindWeb\Northwind.MVC\bin\Debug\net9.0\Northwind.EntityModels.
 D:\workspace\NorthwindWeb\Northwind.MVC\bin\Debug\net9.0\Northwind.DataContext.pdb
 D:\workspace\NorthwindWeb\Northwind.MVC\bin\Debug\net9.0\Northwind.EntityModels.pdb
 D:\workspace\NorthwindWeb\Northwind.MVC\obj\Debug\net9.0\compressed\0dv9zhggjx-bh7xz41nb4.gz
+D:\workspace\NorthwindWeb\Northwind.MVC\obj\Debug\net9.0\Northwind.MVC.Resources.Views.Home.Orders.resources
+D:\workspace\NorthwindWeb\Northwind.MVC\obj\Debug\net9.0\Northwind.MVC.csproj.GenerateResource.cache
+D:\workspace\NorthwindWeb\Northwind.MVC\bin\Debug\net9.0\en-GB\Northwind.MVC.resources.dll
+D:\workspace\NorthwindWeb\Northwind.MVC\bin\Debug\net9.0\fr-FR\Northwind.MVC.resources.dll
+D:\workspace\NorthwindWeb\Northwind.MVC\bin\Debug\net9.0\fr\Northwind.MVC.resources.dll
+D:\workspace\NorthwindWeb\Northwind.MVC\obj\Debug\net9.0\Northwind.MVC.Resources.Views.Home.Orders.en-GB.resources
+D:\workspace\NorthwindWeb\Northwind.MVC\obj\Debug\net9.0\Northwind.MVC.Resources.Views.Home.Orders.fr-FR.resources
+D:\workspace\NorthwindWeb\Northwind.MVC\obj\Debug\net9.0\Northwind.MVC.Resources.Views.Home.Orders.fr.resources
+D:\workspace\NorthwindWeb\Northwind.MVC\obj\Debug\net9.0\en-GB\Northwind.MVC.resources.dll
+D:\workspace\NorthwindWeb\Northwind.MVC\obj\Debug\net9.0\fr-FR\Northwind.MVC.resources.dll
+D:\workspace\NorthwindWeb\Northwind.MVC\obj\Debug\net9.0\fr\Northwind.MVC.resources.dll
+D:\workspace\NorthwindWeb\Northwind.MVC\bin\Debug\net9.0\Microsoft.Extensions.Caching.Hybrid.dll
+D:\workspace\NorthwindWeb\Northwind.MVC\bin\Debug\net9.0\Northwind.Repositories.dll
+D:\workspace\NorthwindWeb\Northwind.MVC\bin\Debug\net9.0\Northwind.Repositories.pdb

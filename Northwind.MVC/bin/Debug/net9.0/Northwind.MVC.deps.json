@@ -13,10 +13,23 @@
           "Microsoft.AspNetCore.Identity.UI": "9.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.7",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.7",
-          "Northwind.DataContext": "1.0.0"
+          "Microsoft.Extensions.Caching.Hybrid": "9.6.0",
+          "Northwind.DataContext": "1.0.0",
+          "Northwind.Repositories": "1.0.0"
         },
         "runtime": {
           "Northwind.MVC.dll": {}
+        },
+        "resources": {
+          "en-GB/Northwind.MVC.resources.dll": {
+            "locale": "en-GB"
+          },
+          "fr-FR/Northwind.MVC.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "fr/Northwind.MVC.resources.dll": {
+            "locale": "fr"
+          }
         }
       },
       "Azure.Core/1.38.0": {
@@ -564,6 +577,20 @@
           "lib/net9.0/Microsoft.Extensions.Caching.Abstractions.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.725.31616"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Hybrid/9.6.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "9.0.7",
+          "Microsoft.Extensions.Caching.Memory": "9.0.7",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.7",
+          "Microsoft.Extensions.Options": "9.0.7"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Caching.Hybrid.dll": {
+            "assemblyVersion": "9.6.0.0",
+            "fileVersion": "9.600.25.31002"
           }
         }
       },
@@ -1121,6 +1148,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Northwind.Repositories/1.0.0": {
+        "dependencies": {
+          "Northwind.DataContext": "1.0.0"
+        },
+        "runtime": {
+          "Northwind.Repositories.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1325,6 +1363,13 @@
       "sha512": "sha512-30necCQehcg9lFkMEIE7HczcoYGML8GUH6jlincA18d896fLZM9wl5tpTPJHgzANQE/6KXRLZSWbgevgg5csSw==",
       "path": "microsoft.extensions.caching.abstractions/9.0.7",
       "hashPath": "microsoft.extensions.caching.abstractions.9.0.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Hybrid/9.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GUNDDD/J3vX9zxt/6xAfFECdnF3Rcjn44Ksvh4Pd+8X2KH4YL5xUX80DhK1vRwF3c93b7E1YTbUCG3HdLF/QOA==",
+      "path": "microsoft.extensions.caching.hybrid/9.6.0",
+      "hashPath": "microsoft.extensions.caching.hybrid.9.6.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Memory/9.0.7": {
       "type": "package",
@@ -1752,6 +1797,11 @@
       "sha512": ""
     },
     "Northwind.EntityModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Northwind.Repositories/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

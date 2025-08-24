@@ -13,3 +13,4 @@ D:\workspace\NorthwindWeb\Northwind.DataContext\obj\Debug\net9.0\Northwind.DataC
 D:\workspace\NorthwindWeb\Northwind.DataContext\obj\Debug\net9.0\refint\Northwind.DataContext.dll
 D:\workspace\NorthwindWeb\Northwind.DataContext\obj\Debug\net9.0\Northwind.DataContext.pdb
 D:\workspace\NorthwindWeb\Northwind.DataContext\obj\Debug\net9.0\ref\Northwind.DataContext.dll
+D:\workspace\NorthwindWeb\Northwind.DataContext\obj\Debug\net9.0\Northwind.DataContext.sourcelink.json

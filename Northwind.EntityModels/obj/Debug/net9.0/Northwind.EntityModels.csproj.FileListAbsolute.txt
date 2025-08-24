@@ -12,3 +12,4 @@ D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\refint\Northwi
 D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.EntityModels.pdb
 D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.EntityModels.genruntimeconfig.cache
 D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\ref\Northwind.EntityModels.dll
+D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.EntityModels.sourcelink.json

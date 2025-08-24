@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Qoi8Urf8en0=",
+  "dgSpecHash": "mtM1jh2owus=",
   "success": true,
   "projectFilePath": "D:\\workspace\\NorthwindWeb\\Northwind.MVC\\Northwind.MVC.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,7 @@
     "C:\\Users\\Carlo Arellano\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\9.0.7\\microsoft.entityframeworkcore.sqlserver.9.0.7.nupkg.sha512",
     "C:\\Users\\Carlo Arellano\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.7\\microsoft.entityframeworkcore.tools.9.0.7.nupkg.sha512",
     "C:\\Users\\Carlo Arellano\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.7\\microsoft.extensions.caching.abstractions.9.0.7.nupkg.sha512",
+    "C:\\Users\\Carlo Arellano\\.nuget\\packages\\microsoft.extensions.caching.hybrid\\9.6.0\\microsoft.extensions.caching.hybrid.9.6.0.nupkg.sha512",
     "C:\\Users\\Carlo Arellano\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.7\\microsoft.extensions.caching.memory.9.0.7.nupkg.sha512",
     "C:\\Users\\Carlo Arellano\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.7\\microsoft.extensions.configuration.abstractions.9.0.7.nupkg.sha512",
     "C:\\Users\\Carlo Arellano\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.7\\microsoft.extensions.dependencyinjection.9.0.7.nupkg.sha512",
