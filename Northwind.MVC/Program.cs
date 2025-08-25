@@ -10,6 +10,11 @@ using Northwind.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.AddServiceDefaults();
+
+builder.Services.Configure<NorthwindOptions>(builder
+    .Configuration.GetSection("Northwind"));
+
 builder.Services.AddDistributedMemoryCache();
 
 builder.Services.AddSingleton<IMemoryCache>(new MemoryCache(
@@ -24,6 +29,7 @@ builder.Services.AddSingleton<IMemoryCache>(new MemoryCache(
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
+
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(
@@ -75,6 +81,8 @@ builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 
 var app = builder.Build();
 
+app.MapDefaultEndpoints();
+
 string[] cultures = { "en-US", "en-GB", "fr", "fr-FR" };
 RequestLocalizationOptions localizationOptions = new();
 
@@ -103,6 +111,29 @@ else
 
 app.UseHttpsRedirection();
 app.UseRouting();
+
+//app.Use(async (HttpContext context, Func<Task> next) =>
+//{
+//    WriteLine($"Request: {context.Request.Method} {context.Request.Path}");
+//    RouteEndpoint? rep = context.GetEndpoint() as RouteEndpoint;
+//    if (rep is not null)
+//    {
+//        WriteLine($"Endpoint: {rep.DisplayName}");
+//        WriteLine($"Route: {rep.RoutePattern.RawText}");
+//    }
+//    if (context.Request.Path == "/bonjour")
+//    {
+//        // In the case of a match on URL path, this becomes a terminating
+//        // delegate that returns so does not call the next delegate.
+//        await context.Response.WriteAsync("Bonjour Monde!");
+//        return;
+//    }
+//    // We could modify the request before calling the next delegate.
+//    // Call the next delegate in the pipeline.
+//    await next();
+//    // The HTTP response is now being sent back through the pipeline.
+//    // We could modify the response at this point before it continues.
+//});
 
 app.UseAuthorization();
 

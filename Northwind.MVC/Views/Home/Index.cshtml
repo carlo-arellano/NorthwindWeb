@@ -31,8 +31,8 @@
 
     <h3>Query products by price</h3>
     <form asp-action="ProductsThatCostMoreThan" method="GET">
-        <input name="price" placeholder="Enter a product price" />
-        <input type="submit" />
+        <input name="price" placeholder="Enter a product price" data-testid="price" />
+        <input type="submit" data-testid="submit_price" />
     </form>
 </div>
 

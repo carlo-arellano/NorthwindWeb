@@ -223,6 +223,143 @@
         }
       }
     },
+    "D:\\workspace\\NorthwindWeb\\Northwind.Mvc.ServiceDefaults\\Northwind.Mvc.ServiceDefaults.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\workspace\\NorthwindWeb\\Northwind.Mvc.ServiceDefaults\\Northwind.Mvc.ServiceDefaults.csproj",
+        "projectName": "Northwind.Mvc.ServiceDefaults",
+        "projectPath": "D:\\workspace\\NorthwindWeb\\Northwind.Mvc.ServiceDefaults\\Northwind.Mvc.ServiceDefaults.csproj",
+        "packagesPath": "C:\\Users\\Carlo Arellano\\.nuget\\packages\\",
+        "outputPath": "D:\\workspace\\NorthwindWeb\\Northwind.Mvc.ServiceDefaults\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Carlo Arellano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Http.Resilience": {
+              "target": "Package",
+              "version": "[9.7.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.ServiceDiscovery": {
+              "target": "Package",
+              "version": "[9.3.1, )",
+              "versionCentrallyManaged": true
+            },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+              "target": "Package",
+              "version": "[1.12.0, )",
+              "versionCentrallyManaged": true
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.12.0, )",
+              "versionCentrallyManaged": true
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.12.0, )",
+              "versionCentrallyManaged": true
+            },
+            "OpenTelemetry.Instrumentation.Http": {
+              "target": "Package",
+              "version": "[1.12.0, )",
+              "versionCentrallyManaged": true
+            },
+            "OpenTelemetry.Instrumentation.Runtime": {
+              "target": "Package",
+              "version": "[1.12.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Aspire.Hosting.AppHost": "9.3.1",
+            "coverlet.collector": "6.0.4",
+            "FastEndpoints": "6.2.0",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.7",
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "9.0.7",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.7",
+            "Microsoft.AspNetCore.Identity.UI": "9.0.7",
+            "Microsoft.AspNetCore.Mvc.Testing": "9.0.7",
+            "Microsoft.AspNetCore.OData": "9.3.2",
+            "Microsoft.AspNetCore.OpenApi": "9.0.7",
+            "Microsoft.EntityFrameworkCore.Design": "9.0.7",
+            "Microsoft.EntityFrameworkCore.Sqlite": "9.0.7",
+            "Microsoft.EntityFrameworkCore.SqlServer": "9.0.7",
+            "Microsoft.EntityFrameworkCore.Tools": "9.0.7",
+            "Microsoft.Extensions.Caching.Hybrid": "9.6.0",
+            "Microsoft.Extensions.Http.Resilience": "9.7.0",
+            "Microsoft.Extensions.ServiceDiscovery": "9.3.1",
+            "Microsoft.ICU.ICU4C.Runtime": "72.1.0.3",
+            "Microsoft.NET.Test.Sdk": "17.14.1",
+            "Microsoft.Playwright": "1.53.0",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.22.1",
+            "NSwag.MSBuild": "14.4.0",
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.12.0",
+            "OpenTelemetry.Extensions.Hosting": "1.12.0",
+            "OpenTelemetry.Instrumentation.AspNetCore": "1.12.0",
+            "OpenTelemetry.Instrumentation.Http": "1.12.0",
+            "OpenTelemetry.Instrumentation.Runtime": "1.12.0",
+            "Umbraco.Cms": "14.3.4",
+            "xunit": "2.9.3",
+            "xunit.runner.visualstudio": "3.1.1"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\workspace\\NorthwindWeb\\Northwind.MVC\\Northwind.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -253,6 +390,9 @@
             "projectReferences": {
               "D:\\workspace\\NorthwindWeb\\Northwind.DataContext\\Northwind.DataContext.csproj": {
                 "projectPath": "D:\\workspace\\NorthwindWeb\\Northwind.DataContext\\Northwind.DataContext.csproj"
+              },
+              "D:\\workspace\\NorthwindWeb\\Northwind.Mvc.ServiceDefaults\\Northwind.Mvc.ServiceDefaults.csproj": {
+                "projectPath": "D:\\workspace\\NorthwindWeb\\Northwind.Mvc.ServiceDefaults\\Northwind.Mvc.ServiceDefaults.csproj"
               },
               "D:\\workspace\\NorthwindWeb\\Northwind.Repositories\\Northwind.Repositories.csproj": {
                 "projectPath": "D:\\workspace\\NorthwindWeb\\Northwind.Repositories\\Northwind.Repositories.csproj"

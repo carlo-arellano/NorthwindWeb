@@ -1,0 +1,13 @@
+D:\workspace\NorthwindWeb\Northwind.Mvc.ServiceDefaults\bin\Debug\net9.0\Northwind.Mvc.ServiceDefaults.deps.json
+D:\workspace\NorthwindWeb\Northwind.Mvc.ServiceDefaults\bin\Debug\net9.0\Northwind.Mvc.ServiceDefaults.dll
+D:\workspace\NorthwindWeb\Northwind.Mvc.ServiceDefaults\bin\Debug\net9.0\Northwind.Mvc.ServiceDefaults.pdb
+D:\workspace\NorthwindWeb\Northwind.Mvc.ServiceDefaults\obj\Debug\net9.0\Northwind.Mvc.ServiceDefaults.csproj.AssemblyReference.cache
+D:\workspace\NorthwindWeb\Northwind.Mvc.ServiceDefaults\obj\Debug\net9.0\Northwind.Mvc.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\NorthwindWeb\Northwind.Mvc.ServiceDefaults\obj\Debug\net9.0\Northwind.Mvc.ServiceDefaults.AssemblyInfoInputs.cache
+D:\workspace\NorthwindWeb\Northwind.Mvc.ServiceDefaults\obj\Debug\net9.0\Northwind.Mvc.ServiceDefaults.AssemblyInfo.cs
+D:\workspace\NorthwindWeb\Northwind.Mvc.ServiceDefaults\obj\Debug\net9.0\Northwind.Mvc.ServiceDefaults.csproj.CoreCompileInputs.cache
+D:\workspace\NorthwindWeb\Northwind.Mvc.ServiceDefaults\obj\Debug\net9.0\Northwind.Mvc.ServiceDefaults.sourcelink.json
+D:\workspace\NorthwindWeb\Northwind.Mvc.ServiceDefaults\obj\Debug\net9.0\Northwind.Mvc.ServiceDefaults.dll
+D:\workspace\NorthwindWeb\Northwind.Mvc.ServiceDefaults\obj\Debug\net9.0\refint\Northwind.Mvc.ServiceDefaults.dll
+D:\workspace\NorthwindWeb\Northwind.Mvc.ServiceDefaults\obj\Debug\net9.0\Northwind.Mvc.ServiceDefaults.pdb
+D:\workspace\NorthwindWeb\Northwind.Mvc.ServiceDefaults\obj\Debug\net9.0\ref\Northwind.Mvc.ServiceDefaults.dll
