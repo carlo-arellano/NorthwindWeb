@@ -1,0 +1,6 @@
+{
+  "Northwind.DataContext, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\workspace\\NorthwindWeb\\Northwind.DataContext",
+  "Northwind.EntityModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\workspace\\NorthwindWeb\\Northwind.EntityModels",
+  "Northwind.Repositories, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\workspace\\NorthwindWeb\\Northwind.Repositories",
+  "Northwind.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\workspace\\NorthwindWeb\\Northwind.WebApi"
+}
