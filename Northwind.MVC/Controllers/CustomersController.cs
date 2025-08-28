@@ -2,7 +2,7 @@
 using Northwind.EntityModels; // To use Customer.
 using Northwind.Repositories; // To use ICustomerRepository.
 
-namespace Northwind.Mvc.Controllers;
+namespace Northwind.MVC.Controllers;
 
 public class CustomersController : Controller
 {

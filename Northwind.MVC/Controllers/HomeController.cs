@@ -19,17 +19,20 @@ namespace Northwind.MVC.Controllers
         private const string ProductKey = "PROD";
         private readonly IDistributedCache _distributedCache;
         private const string CategoriesKey = "CATEGORIES";
+        private readonly IHttpClientFactory _clientFactory;
 
         public HomeController(
             ILogger<HomeController> logger,
             NorthwindMvcContext db,
             IMemoryCache memoryCache,
-            IDistributedCache distributedCache)
+            IDistributedCache distributedCache,
+            IHttpClientFactory clientFactory)
         {
             _logger = logger;
             _db = db;
             _memoryCache = memoryCache;
             _distributedCache = distributedCache;
+            _clientFactory = clientFactory;
         }
 
         [ResponseCache(Duration = DurationInSeconds.TenSeconds, Location = ResponseCacheLocation.Any)]
@@ -377,5 +380,34 @@ namespace Northwind.MVC.Controllers
             return cachedValue;
         }
 
+        public async Task<IActionResult> Customers(string country)
+        {
+            string uri;
+
+            if (string.IsNullOrEmpty(country))
+            {
+                ViewData["Title"] = "All Customers Worldwide";
+                uri = "api/customers";
+            }
+            else
+            {
+                ViewData["Title"] = $"Customers in {country}";
+                uri = $"api/customers/?country={country}";
+            }
+
+            HttpClient client = _clientFactory.CreateClient(
+              name: "Northwind.WebApi");
+
+            HttpRequestMessage request = new(
+              method: HttpMethod.Get, requestUri: uri);
+
+            HttpResponseMessage response = await client.SendAsync(request);
+
+            IEnumerable<Customer>? model = await response.Content
+              .ReadFromJsonAsync<IEnumerable<Customer>>();
+
+            return View(model);
+        }
     }
+
 }

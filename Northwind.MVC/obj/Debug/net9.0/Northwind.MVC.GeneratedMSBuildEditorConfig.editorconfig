@@ -36,6 +36,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlnXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/workspace/NorthwindWeb/Northwind.MVC/Views/Cors/JavaScript.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29yc1xKYXZhU2NyaXB0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/NorthwindWeb/Northwind.MVC/Views/Cors/Net.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29yc1xOZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/workspace/NorthwindWeb/Northwind.MVC/Views/Customers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/workspace/NorthwindWeb/Northwind.MVC/Views/Home/CostlyProducts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb3N0bHlQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workspace/NorthwindWeb/Northwind.MVC/Views/Home/Customers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDdXN0b21lcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/workspace/NorthwindWeb/Northwind.MVC/Views/Home/DeleteSupplier.cshtml]

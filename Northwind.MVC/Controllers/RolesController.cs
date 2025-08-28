@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity; // To use RoleManager, UserManager.
 using Microsoft.AspNetCore.Mvc; // To use Controller, IActionResult.
 
-namespace Northwind.Mvc.Controllers;
+namespace Northwind.MVC.Controllers;
 
 public class RolesController : Controller
 {

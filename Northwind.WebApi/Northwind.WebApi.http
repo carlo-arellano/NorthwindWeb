@@ -1,0 +1,22 @@
+@Northwind.WebApi_HostAddress = http://localhost:5180
+
+GET {{Northwind.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+###
+
+GET {{Northwind.WebApi_HostAddress}}/api/customers/
+Accept: application/json
+###
+
+### Get customers in Germany
+GET {{Northwind.WebApi_HostAddress}}/api/customers/?country=Germany
+
+### Get customers in USA in XML format
+GET {{Northwind.WebApi_HostAddress}}/api/customers/?country=USA
+Accept: application/xml
+
+### Get Alfreds Futterkiste
+GET {{Northwind.WebApi_HostAddress}}/api/customers/ALFKI
+
+### Get a non-existant customer
+GET {{Northwind.WebApi_HostAddress}}/api/customers/abcxy

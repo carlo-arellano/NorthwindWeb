@@ -7,9 +7,9 @@ D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.Enti
 D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.EntityModels.AssemblyInfoInputs.cache
 D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.EntityModels.AssemblyInfo.cs
 D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.EntityModels.csproj.CoreCompileInputs.cache
+D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.EntityModels.sourcelink.json
 D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.EntityModels.dll
 D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\refint\Northwind.EntityModels.dll
 D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.EntityModels.pdb
 D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.EntityModels.genruntimeconfig.cache
 D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\ref\Northwind.EntityModels.dll
-D:\workspace\NorthwindWeb\Northwind.EntityModels\obj\Debug\net9.0\Northwind.EntityModels.sourcelink.json

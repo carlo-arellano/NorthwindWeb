@@ -7,6 +7,7 @@ using Northwind.DataContext;
 using Northwind.MVC;
 using Northwind.MVC.Data;
 using Northwind.Repositories;
+using System.Net.Http.Headers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -76,6 +77,15 @@ builder.Services.AddHybridCache(options =>
         LocalCacheExpiration = TimeSpan.FromSeconds(30)
     };
 });
+
+builder.Services.AddHttpClient(name: "Northwind.WebApi",
+    configureClient: options =>
+    {
+        options.BaseAddress = new Uri("https://localhost:7086/");
+        options.DefaultRequestHeaders.Accept.Add(
+            new MediaTypeWithQualityHeaderValue(
+            mediaType: "application/json", quality: 1.0));
+    });
 
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 
