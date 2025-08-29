@@ -64,7 +64,7 @@
   </ItemGroup>
   
   <ItemGroup Label="For Umbraco CMS.">
-    <PackageVersion Include="Umbraco.Cms" Version="14.3.4" />
+    <PackageVersion Include="Umbraco.Cms" Version="16.1.1" />
     <PackageVersion Include="Microsoft.ICU.ICU4C.Runtime" Version="72.1.0.3" />
   </ItemGroup>
 
